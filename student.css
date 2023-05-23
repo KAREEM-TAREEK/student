@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+ 
+ }
+ 
+ html {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  scroll-behavior: smooth;
+ }
+
+
+.join {
+    background-image: linear-gradient(rgba(9, 20, 49, 0.507), rgba(2, 4, 35, 0.793), rgba(11, 4, 40, 0.645)), url(./img/im,7.jpg);
+    display: flex;
+    justify-content: center;
+    height: 92vh;
+    width: 100%;
+    overflow: hidden;
+    background-position: top;
+    margin-top: 33px;
+ }
+ input {
+    margin-top: 33px;
+    height: 48px;
+    width: 224px;
+    border-top-color: rgba(30, 29, 29, 0.478);
+    border-left-color: rgba(30, 29, 29, 0.478);
+    border-width: 1px;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    cursor: pointer;
+    border-radius: 4px;
+ }
+ input:hover{
+    border-color: darkorange;
+ }
+ 
+ .create {
+    font-weight: 1000;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+ 
+ .btn button {
+    margin-top: 22px;
+    margin-bottom: 11px;
+    width: 224px;
+    height: 37px;
+    border: none;
+    background-color: rgb(226, 223, 11);
+    color: beige;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+ }
+ .lol {
+    padding-top: 9px;
+    margin-top: 77px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+    height: 462px;
+    border-radius: 17px;
+    padding-left: 48px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+ }
+.table{
+   margin-top: 33px;
+}
+ .tab{
+
+    margin: 0 auto;
+    width: 90%;
+    border-color: rgb(68, 67, 26);
+    
+ }
+ tr{
+    height: 38px;
+    text-align: center;
+    color: rgb(39, 28, 12);
+    font-size: 19px;
+    background-color: rgba(216, 195, 176, 0.404);
+    font-family: sans-serif ;
+   
+ }
+ .tab:hover{
+    background-color: rgb(233, 213, 189);
+ }
